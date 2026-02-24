@@ -1,0 +1,14 @@
+{
+	"cork-protected-loop": {
+		"name": "Cork Protected Loop — hgETH/wETH",
+		"description": "Leveraged looping on hgETH using Cork Swap Tokens for depeg insurance. Atomic liquidation via Cork exercise path: REF + cST → CA → USDC.",
+		"entity": ["alphagrowth", "cork", "euler"],
+		"url": "https://docs.cork.tech/",
+		"vaults": [
+			"0x0000000000000000000000000000000000000001",
+			"0x0000000000000000000000000000000000000002",
+			"0x0000000000000000000000000000000000000003"
+		],
+		"featuredVaults": ["0x0000000000000000000000000000000000000001"]
+	}
+}

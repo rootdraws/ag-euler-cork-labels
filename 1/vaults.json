@@ -1,0 +1,17 @@
+{
+	"0x0000000000000000000000000000000000000001": {
+		"name": "REF Vault — hgETH",
+		"description": "Collateral-only vault for the Reference Asset (hgETH). Oracle prices based on Cork unwind value.",
+		"entity": "cork"
+	},
+	"0x0000000000000000000000000000000000000002": {
+		"name": "cST Vault",
+		"description": "Collateral-only control token. Oracle value = 0. Required for Cork exercise path during liquidation.",
+		"entity": "cork"
+	},
+	"0x0000000000000000000000000000000000000003": {
+		"name": "USDC Vault",
+		"description": "Borrowable asset for leveraged looping.",
+		"entity": "alphagrowth"
+	}
+}

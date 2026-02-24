@@ -1,0 +1,44 @@
+{
+	"alphagrowth": {
+		"name": "Alpha Growth",
+		"logo": "alphagrowth.svg",
+		"description": "DeFi risk curation and vault management",
+		"url": "https://alphagrowth.fun",
+		"addresses": {},
+		"social": {
+			"twitter": "",
+			"youtube": "",
+			"discord": "",
+			"telegram": "",
+			"github": ""
+		}
+	},
+	"cork": {
+		"name": "Cork Protocol",
+		"logo": "cork.svg",
+		"description": "Tokenized risk infrastructure for DeFi. Cork Swap Tokens provide depeg and duration insurance enabling atomic liquidation of illiquid collateral.",
+		"url": "https://cork.tech",
+		"addresses": {},
+		"social": {
+			"twitter": "caborkcork",
+			"youtube": "",
+			"discord": "",
+			"telegram": "caborkcork",
+			"github": ""
+		}
+	},
+	"euler": {
+		"name": "Euler Finance",
+		"logo": "euler.svg",
+		"description": "Modular lending protocol",
+		"url": "https://euler.finance",
+		"addresses": {},
+		"social": {
+			"twitter": "eulerfinance",
+			"youtube": "",
+			"discord": "",
+			"telegram": "",
+			"github": "euler-xyz"
+		}
+	}
+}
