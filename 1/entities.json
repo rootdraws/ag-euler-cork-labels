@@ -20,10 +20,10 @@
 		"url": "https://cork.tech",
 		"addresses": {},
 		"social": {
-			"twitter": "caborkcork",
+			"twitter": "https://x.com/caborkcork",
 			"youtube": "",
 			"discord": "",
-			"telegram": "caborkcork",
+			"telegram": "https://t.me/caborkcork",
 			"github": ""
 		}
 	},
@@ -34,11 +34,11 @@
 		"url": "https://euler.finance",
 		"addresses": {},
 		"social": {
-			"twitter": "eulerfinance",
+			"twitter": "https://x.com/eulerfinance",
 			"youtube": "",
 			"discord": "",
 			"telegram": "",
-			"github": "euler-xyz"
+			"github": "https://github.com/euler-xyz"
 		}
 	}
 }

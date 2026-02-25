@@ -1,17 +1,17 @@
 {
 	"0x0000000000000000000000000000000000000001": {
-		"name": "REF Vault — hgETH",
-		"description": "Collateral-only vault for the Reference Asset (hgETH). Oracle prices based on Cork unwind value.",
+		"name": "REF Vault — vbUSDC",
+		"description": "Collateral-only vault for vbUSDC (Reference Asset). Oracle prices based on Cork pool exercise value: min(NAV, swapRate × sUSDe/USD × (1 - fee) × hPool).",
 		"entity": "cork"
 	},
 	"0x0000000000000000000000000000000000000002": {
-		"name": "cST Vault",
-		"description": "Collateral-only control token. Oracle value = 0. Required for Cork exercise path during liquidation.",
+		"name": "cST Vault — vbUSDC4cST",
+		"description": "Collateral-only vault for cST (Cork Swap Token). Oracle value = 0. Required paired with vbUSDC for the Cork exercise path during liquidation.",
 		"entity": "cork"
 	},
 	"0x0000000000000000000000000000000000000003": {
-		"name": "USDC Vault",
-		"description": "Borrowable asset for leveraged looping.",
+		"name": "Borrow Vault — sUSDe",
+		"description": "Borrowable sUSDe. Deposit vbUSDC + cST as matched collateral to borrow and achieve leveraged yield exposure.",
 		"entity": "alphagrowth"
 	}
 }
